@@ -4,7 +4,7 @@ import ts from "rollup-plugin-typescript2";
 import cjs from "@rollup/plugin-commonjs";
 
 const pkgPath = path.resolve(__dirname, "../../packages"); //包路径
-const distPath = path.resolve(__dirname, "../../dist/node_module"); //打包产物路径
+const distPath = path.resolve(__dirname, "../../dist/node_modules"); //打包产物路径
 
 export function resolvePkgPath(pkgName, isDist) {
   if (isDist) {
